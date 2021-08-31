@@ -1,0 +1,28 @@
+.container {
+    margin: auto;
+    height: 50vh;
+    width: 50vw;
+    border: 2px dotted rgb(124, 111, 195);
+    margin-top: 10%;
+}
+
+.item {
+    border: 2px solid rgb(43, 168, 81);
+    height: 50%;
+    width: 50%;
+    position: fixed;
+    z-index: -1;
+}
+
+img {
+    position: fixed;
+    width: 5%;
+    right: 5%;
+    top: 70vh;
+    z-index: 1;
+}
+
+p {
+    position: relative;
+    z-index: 2;
+}
